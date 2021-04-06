@@ -3,6 +3,7 @@
 <html>
 
 <head>
+    <title>Modern Academy Student Online Learning</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -46,9 +47,29 @@
         }
     </style>
 
+    <script language="Javascript" type="text/javascript">
+        function myFunction() {
+            var Username = document.getElementById("usernameField").value;
+            var Password = document.getElementById("passwordField").value;
+            if (Username == '4190283' &&
+                Password == '101458') {
+                window.open("result1.html");
+            } else if (Username == '4190283' &&
+                Password != '101458') {
+                alert('Check Your Username Or Password');
+            } else if (Username == '4200202' && Password == '101351') {
+                window.open("result2.html");
+            } else if (Username == '4200202' && Password != '101351') {
+                alert('Check Your Username Or Password');
+            } else {
+                alert('Invalid Login!!!');
+            }
+        };
+    </script>
+
 </head>
 
-<body style="background-image: url('images/background.png');background-size: auto; background-repeat: no-repeat;">
+<body style="background-image: url('images/background.png');background-size:cover; background-repeat: no-repeat;">
     <div style="margin-top: 4%;">
         <center>
             <div class="col-md-6 col-lg-5">
@@ -59,10 +80,10 @@
                     <h3 style="color: white;" class="text-center mb-4">يرجي ادخال رقم الكارنية و1 + اخر خمسة ارقم من الرقم القومي من علي اليمين</h3>
                     <form action=" # " class="login-form ">
                         <div class="form-group ">
-                            <input type="text " class="form-control rounded-left " placeholder="Username " required>
+                            <input type="text " class="form-control rounded-left " placeholder="Username " id="usernameField" required>
                         </div>
                         <div class="form-group d-flex ">
-                            <input type="password " class="form-control rounded-left " placeholder="Password " required>
+                            <input type="password " class="form-control rounded-left " placeholder="Password " id="passwordField" required>
                         </div>
                         <div class="form-group d-md-flex ">
                             <div class="w-50 ">
@@ -73,7 +94,7 @@
                             </div>
                         </div>
                         <div class="form-group ">
-                            <button type="submit " class="btn btn-primary rounded submit p-3 px-5"><a href="result.html" style="color: #ffffff;;">Sign in</a></button>
+                            <button onclick="myFunction()" type="submit" class="btn btn-primary rounded submit p-3 px-5">Sign in</button>
                         </div>
                     </form>
                 </div>
