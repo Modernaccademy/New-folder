@@ -10,66 +10,15 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
 
     <link rel="stylesheet" href="css/style.css">
-    <style>
-        #login .form-signin input[type=text],
-        #login .form-signin input[type=password] {
-            font-size: 16px;
-            height: auto;
-            margin-bottom: 15px;
-            padding: 7px 9px;
-        }
-        
-        #input {
-            text-rendering: auto;
-            color: -internal-light-dark(black, white);
-            letter-spacing: normal;
-            word-spacing: normal;
-            text-transform: none;
-            text-indent: 0px;
-            text-shadow: none;
-            display: inline-block;
-            text-align: start;
-            appearance: auto;
-            background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
-            -webkit-rtl-ordering: logical;
-            cursor: text;
-            margin: 0em;
-            font: 400 13.3333px Arial;
-            padding: 1px 2px;
-            border-width: 2px;
-            border-style: inset;
-            border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
-            border-image: initial;
-            position: absolute;
-            top: 500px;
-        }
-    </style>
-
-    <script language="Javascript" type="text/javascript">
-        function myFunction() {
-            var Username = document.getElementById("usernameField").value;
-            var Password = document.getElementById("passwordField").value;
-            if (Username == '4190283' &&
-                Password == '104158') {
-                window.open("result.html");
-            } else if (Username == '4190283' &&
-                Password != '104158') {
-                alert('Check Your Username Or Password');
-            } else if (Username == '4200202' && Password == '101351') {
-                window.open("result2.html");
-            } else if (Username == '4200202' && Password != '101351') {
-                alert('Check Your Username Or Password');
-            } else {
-                alert('Invalid Login!!!');
-            }
-        };
-    </script>
+    
+    
 
 </head>
 
-<body style="background-attachment: fixed;background-position: center center;background-image: url('images/background.png');background-size:auto; background-repeat: no-repeat;">
+<body id="bodyindex" style="background-attachment: fixed;background-position: center center;background-image: url('images/background.png');background-size:auto; background-repeat: no-repeat;">
     <div style="margin-top: 4%;">
         <center>
             <div class="col-md-6 col-lg-5">
@@ -104,7 +53,7 @@
     </div>
 
 
-
+    <script src="js/loginBtn.js"></script> 
 </body>
 
 </html>
