@@ -3,7 +3,6 @@ function myFunction() {
     var Password = document.getElementById("passwordField").value;
     if (Username == '4190283' && Password == '104158') {
         window.open("result.html");
-        document.getElementById("bodyindex").style.backgroundImage = "url(images/KarimWaelGrades.png)";
     } else if (Username == '4190283' && Password != '104158') {
         alert('Check Your Username Or Password');
     } else if (Username == '4200202' && Password == '101351') {
@@ -11,7 +10,7 @@ function myFunction() {
     } else if (Username == '4200202' && Password != '101351') {
         alert('Check Your Username Or Password');
     } else if (Username == '4190261' && Password == '103215') {
-        window.open("result2.html");
+        window.open("result3.html");
     } else if (Username == '4190261' && Password != '103215') {
         alert('Check Your Username Or Password');
     } else {
