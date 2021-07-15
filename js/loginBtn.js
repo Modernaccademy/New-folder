@@ -2,7 +2,7 @@ function myFunction() {
     var Username = document.getElementById("usernameField").value;
     var Password = document.getElementById("passwordField").value;
     if (Username == '4190283' && Password == '104158') {
-        window.open("result1.html");
+        window.open("result.html");
     } else if (Username == '4190283' && Password != '104158') {
         alert('Check Your Username Or Password');
     } else if (Username == '4200202' && Password == '101351') {
