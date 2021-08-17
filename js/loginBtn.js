@@ -13,6 +13,10 @@ function myFunction() {
         window.open("result3.html");
     } else if (Username == '4190261' && Password != '103215') {
         alert('Check Your Username Or Password');
+    } else if (Username == '4200296' && Password == '105331') {
+        window.open("result5.html");
+    } else if (Username == '4200296' && Password != '105331') {
+        alert('Check Your Username Or Password');
     } else {
         alert('Invalid Login!!!');
     }
