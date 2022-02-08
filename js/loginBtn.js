@@ -17,7 +17,11 @@ function myFunction() {
         window.open("AbdallahGamal.html");
     } else if (Username == '4200296' && Password != '105331') {
         alert('Check Your Username Or Password');
-    } else {
+    } else if (Username == '4190163' && Password == '103101'){
+        window.open("AyatHanafy.html");
+    }else if (Username == '4190163' && Password != '103101') {
+        alert('Check Your Username Or Password');
+    }else {
         alert('Invalid Login!!!');
     }
 };
