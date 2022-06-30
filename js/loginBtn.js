@@ -15,6 +15,8 @@ function myFunction() {
         window.open("RadwaAhmed.html");
     }else if (Username == '4190521' && Password == '103711'){
         window.open("HussienHassan.html");
+    }else if (Username == '4200039' && Password == '104429'){
+        window.open("TasneemSaed.html");
     }else {
         alert('Check Your Username Or Password');
     }
